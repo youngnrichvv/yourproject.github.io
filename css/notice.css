@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Prata&display=swap');
+@font-face{
+     font-family:myfirstfont;
+     src: url(../font/Mirrabella.ttf);
+}
+
+
+*{margin:0; padding:0;}
+body{ min-width:710px;font-family: 'Arimo', sans-serif;
+     color:#ffffff;width:100%; background-color:#4c5c92;}
+.clear{clear:both; overflow:hidden; height:0px; margin:0px;}
+
+
+header{position:fixed; z-index:99; width:100%;}
+header li{float:left; padding:15px; padding-top:25px; color:#ffffff;}
+header li:hover{color:#ffe6af;}
+#headmenu{float:right; width:180px;}
+
+
+#box{width:1200px; right:10%; top:20%; position:absolute;}
+#title{border-bottom:solid 3px #ffffff;font-family: 'Prata', serif; font-size:60px; margin-bottom:60px;}
+.content{width:1200px; border-bottom:solid 1px #ffffff86;}
+.content div {display:inline-block; padding:20px; padding-top:20px;padding-bottom:20px;}
+.dat {float:right;}
+.day{float:right;}
+.sel{padding-top:30px; text-align: center;}
+
+
+@media only screen and (min-width:890px)and (max-width:1600px){
+     #box{width:900px;top:15%;}
+     .content{width:900px;}
+   
+     }

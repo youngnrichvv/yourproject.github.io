@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Prata&display=swap');
+@font-face{
+     font-family:myfirstfont;
+     src: url(../font/Mirrabella.ttf);
+}
+
+
+*{margin:0; padding:0;}
+body{ min-width:710px;font-family: 'Arimo', sans-serif;
+     color:#ffffff;width:100%; background-color:#4c5c92;}
+.clear{clear:both; overflow:hidden; height:0px; margin:0px;}
+
+
+header{position:fixed; z-index:99; width:100%;}
+header li{float:left; padding:15px; padding-top:25px; color:#ffffff;}
+header li:hover{color:#ffe6af;}
+#headmenu{float:right; width:180px;}
+
+
+#new{ padding-top:100px; text-align:center; height:100%; float:right; padding-right:9%;}
+#new h1{font-family: 'Prata', serif;text-align:center;}
+#price-option{width:200px;height:30px;float:right;margin-right:30px;}
+.item{width:280px; padding:20px; display:inline-block; padding-top:5px;}
+.item img{width:280px; padding-bottom:5px;}
+.item-text{text-align:left;}
+.item span{font-size:16px;}
+.cart img{width:25px; margin-top:-20px;}
+.cart{float:right;}
+.buy img{opacity:0.8;}
+.buy img:hover{opacity:1;}
+
+
+
+
+
+
+@media only screen and (max-width:890px){
+
+     }
+
+@media only screen and (min-width:890px)and (max-width:1600px){
+     .item{width:250px;}
+     .item span{font-size:12px;}
+     .item img {width:250px;}
+     .cart img{width:30px;}
+     #price-option{margin-right:200px;}
+     #new{ padding-right:20px;}
+
+     
+
+}
